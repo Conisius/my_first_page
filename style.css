@@ -70,6 +70,7 @@ a:hover {
    width: 500px;
    height: 200px;
    margin: 30px 0px 30px 30px;
+   border-radius: 15px;
    
 }
 
@@ -97,7 +98,7 @@ a:hover {
 }
 
 .center {
-    background-color: lightgray;
+    background-color: #fff;
 }
 
 .container {
@@ -125,6 +126,84 @@ a:hover {
     height: 120px;
     margin-bottom: 15px;
     border: 2px solid darkgreen;
+    border-radius: 15px;
+}
+
+.quote-sec {
+    background-color: lightgrey;
+}
+
+.container .citat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.citat p {
+    font-size: 24px;
+    font-style:italic;
+    line-height: 40px;
+}
+
+#quoter {
+    align-self: flex-end;
+    margin-right: 140px;
+    font-style: initial;
+    font-weight: 700;
+}
+
+
+.sign-in {
+    background-color: #fff;
+}
+
+.sign-in .container {
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .ulogujse {
+    display: flex;
+    width: 800px;
+    height: 120px;
+    border: 2px solid darkgreen;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3d9154;
+    color: #fff;
+}
+
+.ulogujse button {
+    border: 3px solid #fff;
+    background-color: #6ceb8c;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius:10px ;
+    color: darkgreen;
+}
+
+footer {
+    background-color: #3d9154;
+    height: 70px;
+    margin-bottom: 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
